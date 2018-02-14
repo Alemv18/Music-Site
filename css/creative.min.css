@@ -60,7 +60,7 @@ section {
 }
 
 .gallery-heading {
-	padding-top: 4rem;
+	padding-top: 8rem;
 }
 
 ::-moz-selection {
@@ -267,7 +267,7 @@ header.masthead p {
 	text-align: center;
 	opacity: 0;
 	color: #fff;
-	background: rgba(240, 95, 64, .9);
+	background: #008fc1ad;
 	-webkit-transition: all .2s;
 	-moz-transition: all .2s;
 	transition: all .2s
