@@ -7,6 +7,8 @@ body, html {
 
 body {
 	font-family: 'Lato', sans-serif;
+	background: #000;
+	color: #fff;
 }
 
 hr {
@@ -51,7 +53,14 @@ section {
 }
 
 .section-heading {
-	margin-top: 0
+	margin-top: 0;
+	font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.gallery-heading {
+	padding-top: 4rem;
 }
 
 ::-moz-selection {
@@ -335,3 +344,20 @@ header.masthead p {
 .btn-primary:active, .btn-primary:focus {
 	box-shadow: 0 0 0 .2rem rgba(240, 95, 64, .5) !important
 }
+
+/* Footer logo */
+.footer-logo {
+	width: 40%;
+	opacity: 0.7;
+}
+
+.partner-logo {
+	width: 18%;
+	opacity: 0.6;
+
+}
+
+
+
+
+
