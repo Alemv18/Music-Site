@@ -21,15 +21,12 @@ hr.light {
 	border-color: #fff
 }
 
+
 a {
 	color: #f05f40;
 	-webkit-transition: all .2s;
 	-moz-transition: all .2s;
 	transition: all .2s
-}
-
-a:hover {
-	color: #f05f40
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -63,6 +60,10 @@ section {
 	padding-top: 8rem;
 }
 
+.gallery-line {
+	margin-bottom: 70px !important;
+}
+
 ::-moz-selection {
 	color: #fff;
 	background: #212529;
@@ -88,7 +89,7 @@ img::-moz-selection {
 header.masthead {
 	padding-top: 10rem;
 	padding-bottom: calc(10rem - 56px);
-	background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.3)), url(../img/main-image.jpeg) no-repeat top scroll !important;
+	background: linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.48)), url(../img/main-image.jpeg) no-repeat top scroll !important;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -251,6 +252,10 @@ header.masthead p {
     min-height: 400px;
 }
 
+.coliseo-parallax-window {
+	min-height: 300px;
+}
+
 .portfolio-box {
 	position: relative;
 	display: block;
@@ -362,11 +367,77 @@ header.masthead p {
 }
 
 .partner-logo {
-	width: 18%;
+	width: 11%;
 	opacity: 0.6;
 
 }
 
+footer ul li a {
+    font-size: 12px;
+    color: #fff;
+}
+
+footer ul li a.active, footer ul li a:active, footer ul li a:focus, footer ul li a:hover {
+    text-decoration: none;
+    color: #008fc1ad;
+}
+
+.footer-arrow {
+    width: 28%;
+    margin-top: -84px;
+    float: right;
+    margin-right: -50px;
+}
+
+.logo-white {
+    float: left;
+    width: 51%;
+    margin-top: -4px;
+}
+
+ul.footer-txt {
+    list-style: none;
+    font-weight: 100 !important;
+    padding-left: 0px;
+    top: 35%;
+    position: absolute;
+    left: 6%;
+    align-items: flex-start;
+}
+
+ul.footer-txt a {
+	color: #fff;
+}
+
+li.fa-facebook {
+    margin-bottom: 10px;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer-icons {
+    display: flex;
+    color: white;
+    font-size: 35px;
+    text-shadow: -1px 1px 3px #a59597;
+    float: left;
+    flex-direction: column;
+}
+
+.footer-txt-contact {
+    color: white;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+#contact {
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 
 
