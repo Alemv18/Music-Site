@@ -237,7 +237,8 @@ header.masthead p {
 }
 
 .coliseo-main-logo {
-	width: 90%;
+	width: 105%;
+	opacity: 0.8;
 }
 
 #about {
@@ -367,9 +368,17 @@ header.masthead p {
 }
 
 .partner-logo {
-	width: 11%;
-	opacity: 0.6;
+	width: 14%;
+    opacity: 0.8;
+    margin-left: 30px;
+}
 
+.chilchota-logo {
+	width: 10%;
+}
+
+.televisa-logo {
+	width: 10%;
 }
 
 footer ul li a {
@@ -420,7 +429,7 @@ footer ul li {
 .footer-icons {
     display: flex;
     color: white;
-    font-size: 35px;
+    font-size: 32px;
     text-shadow: -1px 1px 3px #a59597;
     float: left;
     flex-direction: column;
